@@ -145,4 +145,28 @@
     }
 
 
+    .opt{
+
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 100px;
+        width: 80rem;
+        margin: auto;
+    }
+
+    .det{
+         color: white;
+         visibility: visible;
+    }
+
+    .btnicon{
+
+        width: 20px;
+        height: 20px;
+    }
+  
+
+
 
