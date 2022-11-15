@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>art</title>
 
+
+    <link rel="stylesheet" href="./quiz.css">
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,12 +20,14 @@
 
 <body style="background-color: #EA698B; font-family: 'IBM Plex Sans Arabic', sans-serif;">
 
-    <div class="container-md" style="background-color:#571089;  opacity: 90%; width: 1000px; height: 700px; border-radius: 50px; display: flex; flex-direction: column; align-items: center; margin: auto; margin-top: 40px; ">
-        <img style="margin-top: 25px ;"  src="./Assets/art/purple_copy.png" alt=""> 
+    <div id="book" class="container-md" style="background-color:#571089;  opacity: 90%; width: 1000px; height: 900px; border-radius: 50px; display: flex; flex-direction: column; align-items: center; margin: auto; margin-top: 40px; margin-bottom: 30px; ">
+        <img style="margin-top: 25px ; margin-bottom: 30px;"  src="./Assets/art/purple_copy.png" alt=""> 
 
-        
+        <div id="quizb" class="qzbody"></div>
 
+
+        <button class="btnext" onclick="next()">التالي</button>
       </div>
-    
+    <script src="./spq.js"></script>
 </body>
 </html>
