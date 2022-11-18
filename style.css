@@ -167,16 +167,62 @@
         height: 20px;
     }
 
-    /* #map{
-        
-    }
+.cot{
 
-    #map:hover {
+    border-radius: 130px;
+    width: 230px;
+    height: 230px;
+    margin-bottom: 15px;
+    opacity: 95%;
+}
 
-        width: 100;
-        transition: 0.3s;
+.coppp{
+
+   margin-right: 50px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+h3 , h5 {
+
+    color: white;
+}
+
+.cot:hover{
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+     transition: 0.4s;
+     
+}
+
+.ma{
+
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.mppp{
+    margin-top: 30px;
+}
+
+.hovv{
+   
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 0px;
+    opacity: 0;
+    
+    
+}
+
+.hovv:hover {
+
+    opacity: 1;
+    transition: 0.5s;
+   
     }
-   */
 
 
 
