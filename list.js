@@ -11,6 +11,27 @@ for (i = 0; i < mlist.length; i++) {
 }
 
 
+
+let listy = document.getElementById("listdo").appendChild(li);
+
+
+if (localStorage.getItem("listy")){
+  let parseList = localStorage.getItem("listy").split(`,`);
+  listy = parseList;
+
+  for (i = 0; i < mlist.length; i++) {
+    let span = document.createElement("SPAN");
+    let txt = document.createTextNode("\u00D7");
+    span.className = "close";
+    span.appendChild(txt);
+    mlist[i].appendChild(span);
+  }
+}
+
+
+
+
+
 let close = document.getElementsByClassName("close");
 var i;
 for (i = 0; i < close.length; i++) {
@@ -33,6 +54,7 @@ function newElement() {
   let li = document.createElement("li");
   let inputValue = document.getElementById("taskinp").value;
   let t = document.createTextNode(inputValue);
+  localStorage.setItem("listy", listy);
   li.appendChild(t);
   if (inputValue === '') {
     console.error('الرجاء ادخال قيمة');
@@ -55,3 +77,4 @@ function newElement() {
     }
   }
 }
+
